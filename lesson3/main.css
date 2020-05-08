@@ -1,0 +1,47 @@
+body {
+    max-width: 900px;
+}
+body {
+}
+
+h1,h2,h3,h4 {
+    font-family: montserrat;
+}
+p {
+    font-family: domine;
+}
+ul {
+    font-family: domine;
+}
+
+.logo {
+    width: 200px;
+}
+
+
+/*Color Table*/
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+.primary {
+    background-color: #ffffff;
+  }
+  .secondary {
+    background-color: #4A6D7C;
+  }
+  .accent1 {
+    background-color:#297373;
+  }
+  .accent2{
+    background-color: #FF8552;
+  }
