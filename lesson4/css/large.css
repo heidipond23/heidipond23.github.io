@@ -25,12 +25,11 @@
 	
     .contentbox {
         color: white;
-        background-color:#7799A3;
+        background-color:rgb(21, 70, 85);
     }
 
     main, footer {
-     width: 60%;
-     min-width: 350px;
+     width: 90%;
      margin: auto;
      text-align: center;
     }

@@ -9,6 +9,7 @@
     
     .navigation {
         display: flex;
+        max-width: 80%;
       }
     
       .navigation li {
@@ -30,7 +31,6 @@
 
     main, footer {
      width: 60%;
-     min-width: 350px;
      margin: auto;
      text-align: center;
     }
