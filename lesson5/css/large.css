@@ -26,12 +26,59 @@
           max-width: 900px;
           margin: 0 auto;
       }
-
+     
+    /*.forecastdiv {
+        background-color: #B4D3D8;
+        height: 100px;
+        position: relative;
+        border: 1px solid;
+        padding: 10px;
+    }*/
+    
+   /* #forecast {
+        background-color: white;
+        height: 50px;
+        width: 80%;
+        position: absolute;
+        top: 40px;
+        left: 10%;
+        border: 1px solid;
+    }*/
+    
+    /*.articlediv {
+        background-color:#B4D3D8;
+        border: 1px solid;
+        margin: 20px 0;
+        text-align: left;
+        padding: 10px;
+    }*/
+    
+    /*#articleimg {
+        float: right;
+        height: 225px;
+        margin: 10px;
+    }*/
+    
+    /*.contactdiv {
+        background-color: #B4D3D8;
+        border: 1px solid;
+        position: relative;
+    }*/
+    
+    /*#contactinfo {
+        padding: 20px;
+        text-align: left;
+        position: absolute;
+        right: 20px;
+    }*/
+    
+    /*#map {
+       padding: 20px;
+    }*/
  
   
 
-    main, footer {
-     width: 90%;
+    footer {
      text-align: center;
      margin: auto;
     }

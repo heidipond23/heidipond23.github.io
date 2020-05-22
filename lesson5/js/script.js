@@ -10,3 +10,12 @@ var year    = dateObj.getUTCFullYear();
 
 var newdate = weekday + ", " + day + " " + month  + " " + year;
 document.getElementById("newdate").innerHTML = newdate;
+
+
+const banner = document.getElementById("pancakes");
+if (weekday == "Friday") {
+    banner.style.display = "block";
+}
+else{
+    banner.style.display = "none";
+}

@@ -1,146 +1,173 @@
-body{
-    max-width: 100%;
-    font-size: 22px;
-    padding: 0;
-    margin: 0;
-}
-header {
-    color: #4A6D7C;
-    background-color: #B4D3D8;
-    padding: 5px 0;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-}
-header img {
-    width: 80px;
-    height: auto;
-}
-.headings {
-    display: flex;
-    flex-direction: column;
-}
-headings h1 {
-    font-size: 1.6rem;
-    margin: 0 0 0 17px;
+body {
+  max-width: 100%;
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
 }
 
-h1, h2, h3 {
+header {
+  color: #4A6D7C;
+  background-color: #B4D3D8;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+}
+
+headings h1 {
+  font-size: 1.6rem;
+  margin: 0 0 0 17px;
+}
+
+h1,
+h2,
+h3 {
   font-family: "montserrat";
 }
 
-
+#pancakes {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid;
+  color: white;
+  background-color: #4A6D7C; 
+}
 
 
 nav {
-    margin: 0 auto;
-    background-color: #FF8552;
-  
-  }
-  .navigation {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-  }
-  .navigation li:first-child {
-    display: block;
-  }
-  .navigation li {
-    display: none;
-  }
-  .navigation a {
-    display: block;
-    padding: 0.75rem;
-    text-align: left;
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-  }
-  .navigation a:hover {
-    color: #297373;
-    background-color: white;
-  }
-  .responsive li {
-    display: block;
-  }
+  margin: 0 auto;
+  background-color: #FF8552;
 
-
-.herodiv {
-    margin: 10px auto;
-    position: relative;
 }
 
-h1, h2, p {
-    margin: 0;
+.navigation {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.navigation a:hover {
+  color: #297373;
+  background-color: white;
+}
+
+.active {
+  background-color: #4A6D7C;
+  text-decoration: underline;
+}
+
+.responsive li {
+  display: block;
+}
+
+main {
+  max-width: 900px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.herodiv {
+  margin: 10px auto;
+  position: relative;
+  margin: 20px 0;
+}
+
+#heroimg {
+  max-width: 100%;
+}
+
+
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+
+.pagetitle {
+  text-align: center;
 }
 
 .summary {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background-color: #B4D3D8;
-    border: 1px solid #4A6D7C;
-    padding: 1.5rem;
-    opacity: .8;
-    text-align: left;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #B4D3D8;
+  border: 1px solid #4A6D7C;
+  margin: 10px;
+  padding: 5px;
+  opacity: .8;
+  text-align: left;
 }
 
 .forecastdiv {
-    background-color: #B4D3D8;
-    height: 100px;
-    position: relative;
-    border: 1px solid;
-    padding: 10px;
+  visibility: hidden;
 }
 
-#forecast {
-    background-color: white;
-    height: 50px;
-    width: 80%;
-    position: absolute;
-    top: 40px;
-    left: 10%;
-    border: 1px solid;
-}
 
 .articlediv {
-    background-color:#B4D3D8;
-    border: 1px solid;
-    margin: 20px 0;
-    text-align: left;
-    padding: 10px;
+  background-color: #B4D3D8;
+  border: 1px solid;
+  margin: 20px 0;
+  text-align: center;
+  padding: 10px;
 }
 
-#articleimg {
-    float: right;
-    height: 225px;
-    margin: 10px;
+.articleimg {
+  width: 90%;
+  margin: 10px;
 }
 
 .contactdiv {
-    background-color: #B4D3D8;
-    border: 1px solid;
-    position: relative;
+  background-color: #B4D3D8;
+  border: 1px solid;
 }
 
 #contactinfo {
-    padding: 20px;
-    text-align: left;
-    position: absolute;
-    right: 20px;
+  padding: 20px;
+  text-align: center;
 }
 
-#map {
-   padding: 20px;
+.map {
+  width: 90%;
+  margin: 20px;
 }
 
-footer{
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    background-color: #4A6D7C;
-    margin: 0;
-    padding: 5px;
-    font-family: "domine";
-    max-width: 900px;
+footer {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color: #4A6D7C;
+  margin: 0;
+  padding: 5px;
+  font-family: "domine";
+  max-width: 900px;
 }

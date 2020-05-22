@@ -23,13 +23,69 @@
         display: none;
       }
 
-	
-    .contentbox {
-        color: white;
-        background-color:#7799A3;
+    .summary {
+      height: 250px;
+      width: 250px;
     }
 
-    main, footer {
+    .forecastdiv {
+        visibility: visible; 
+        background-color: #B4D3D8;
+        height: 100px;
+        position: relative;
+        border: 1px solid;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    #forecast {
+        background-color: white;
+        height: 50px;
+        width: 80%;
+        position: absolute;
+        top: 40px;
+        left: 10%;
+        border: 1px solid;
+    }
+  
+    .articlediv {
+      position: relative;
+      height: 300px;
+      text-align: left;
+    }
+    .articleimg {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      width: 400px;
+    }
+
+    .articlep {
+      position: absolute;
+      top: 50px;
+      right: 500px;
+      left: 20px;
+
+    }
+    
+    .contactdiv {
+        position: relative;
+    }
+    
+    #contactinfo {
+        text-align: left;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+    
+    .map {
+      width: 40%;
+       padding: 20px;
+    }
+    
+
+    footer {
      width: 60%;
      margin: auto;
      text-align: center;
