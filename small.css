@@ -15,6 +15,7 @@ body {
   text-align: center;
   width: 100%;
   text-align: center;
+  font-family: "Oswald";
 }
 
 #container {
@@ -38,6 +39,6 @@ nav {
 }
 
 footer {
-    font-family: "candara";
+    font-family: "Oswald";
     font-size: 15px;
 }
