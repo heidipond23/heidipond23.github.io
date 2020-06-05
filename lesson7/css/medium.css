@@ -82,10 +82,19 @@
     padding: 20px;
   }
 
+  .gallerydiv {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  }
+
+  figure img{
+    max-width: 325px;
+  }
+
+
 
   footer {
-    width: 60%;
     margin: auto;
     text-align: center;
   }
-}

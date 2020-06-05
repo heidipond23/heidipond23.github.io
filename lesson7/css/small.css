@@ -33,6 +33,7 @@ h1,
 h2,
 h3 {
   font-family: "montserrat";
+  text-align: center;
 }
 
 #pancakes {
@@ -166,6 +167,18 @@ p {
   margin: 20px;
 }
 
+.gallerydiv {
+  max-width: 250px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-content: center;
+}
+figure img {
+  max-width: 250px;
+}
+
+
+
 footer {
   color: white;
   font-size: 20px;
@@ -174,5 +187,4 @@ footer {
   margin: 0;
   padding: 5px;
   font-family: "domine";
-  max-width: 900px;
 }

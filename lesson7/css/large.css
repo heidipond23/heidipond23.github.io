@@ -33,11 +33,20 @@
     height: 250px;
     width: 250px;
     font-size: 1em;
-    color
   }
 
+  .gallerydiv {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
 
-footer {
-  width: 80%;
-}
-}
+  figure img{
+    max-width: 400px;
+  }
+
+  .norm:hover {
+    box-shadow: 0 0 50px #333;
+  }
+  
