@@ -4,11 +4,13 @@ body{
     justify-items: center;
 }
 
-picture img[data-src] {
-    filter: blur(0.2em);
-  }
   
-picture img {
+img {
     filter: blur(0em);
-    transition: filter 0.5s;
+    transition: filter 1s;
+    padding: 10px;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
   }

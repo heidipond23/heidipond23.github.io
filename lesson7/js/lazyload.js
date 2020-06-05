@@ -1,6 +1,6 @@
-  let imagesToLoad = document.querySelectorAll('img[data-src');
+ let imagesToLoad = document.querySelectorAll('img[data-src');
   const imOptions = {
-      treshold: 1,
+      threshold: 1,
       rootMargin: "0px 0px 1550px 0px"
   };
   const loadImages = (image) => {
@@ -9,8 +9,6 @@
           image.removeAttribute('data-src');
       };
   };
-
-
 
 
   if ('IntersectionObserver' in window) {
