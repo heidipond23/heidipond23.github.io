@@ -1,0 +1,100 @@
+@media only screen and (min-width: 32.5em) {
+  header img {
+    width: 100%;
+  }
+
+  .headings h1 {
+    font-size: 2em;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .summary {
+    height: 200px;
+    width: 200px;
+  }
+
+  .forecastdiv {
+    visibility: visible;
+    background-color: #B4D3D8;
+    height: 100px;
+    position: relative;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #forecast {
+    background-color: white;
+    height: 50px;
+    width: 80%;
+    position: absolute;
+    top: 40px;
+    left: 10%;
+    border: 1px solid;
+  }
+
+  .articlediv {
+    position: relative;
+    height: 300px;
+    text-align: left;
+  }
+
+  .articleimg {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 400px;
+  }
+
+  .articlep {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+    left: 20px;
+
+  }
+
+  .contactdiv {
+    position: relative;
+  }
+
+  #contactinfo {
+    text-align: left;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+
+  .map {
+    width: 40%;
+    padding: 20px;
+  }
+
+  .gallerydiv {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  }
+
+  figure img{
+    max-width: 325px;
+  }
+
+
+
+  footer {
+    margin: auto;
+    text-align: center;
+  }

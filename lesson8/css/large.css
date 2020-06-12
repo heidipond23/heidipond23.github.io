@@ -1,0 +1,56 @@
+@media only screen and (min-width: 60em) {
+  header img {
+    width: 100%;
+  }
+
+  .headings h1 {
+    font-size: 3.5rem;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+
+  .navigation a {
+    text-align: center;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .summary {
+    height: 250px;
+    width: 250px;
+    font-size: 1em;
+  }
+
+  .gallerydiv {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+
+  figure img{
+    max-width: 400px;
+  }
+
+  .norm:hover {
+    box-shadow: 0 0 50px #333;
+  }
+
+  form label.sbs {
+    padding: .4rem 0;
+  }
+  

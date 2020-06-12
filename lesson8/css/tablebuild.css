@@ -6,6 +6,7 @@ table, th, td, caption  {
     font-size: 25px;
     margin: 20px;
     font-family: "Ubuntu", sans-serif;
+    align-items: center;
 }
 
 table, caption {

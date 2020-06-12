@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Storm Center</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="Submit storm information in your area">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:wght@800&display=swap"
+        rel="stylesheet">
+    <script src="js/windchill.js"></script>
+    <script src="js/lazyload.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img id="logo" src="images/weatherlogo.png" alt="Weather Or Not Logo">
+        </picture>
+        <section class="headings">
+            <h1>Weather Or Not</h1>
+            <div class="m">Accurate Information; Whether it's Good or Not.</div>
+        </section>
+
+    </header>
+    <div id="pancakes">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the City Park Pavilion.</div>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a class="active" href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+      <h1>Submit Local Storm Information</h1>
+
+
+
+
+      <form method="get" action="thanks.html">
+
+        <fieldset>
+            <legend>Your Information</legend>
+              <label class="top">
+                Full Name <input type="text" name="fname" required>
+              </label>
+              <label class="top">
+                Email<input type="email" name="email" placeholder="someone@gmail.com">
+              </label>
+              <label class="top">
+                Phone Number<input type="tel" name="phone" required>
+              </label>
+              <label class="top">
+                Zip Code<input type="number" name="zip" required>
+              </label>
+          
+        </fieldset>
+
+        <fieldset>
+          <legend>Storm Information</legend>
+          <label class="top"> Date of Storm
+            <input type="date" name="completed date">
+          </label>
+
+          <label class="top">Storm Type
+            <input list="stormType" name="stormType">
+          </label>
+              <datalist name="stormType">
+                <option value="software">Flash Flood</option>
+                <option value="creatove">Hail</option>
+                <option value="info">Hurricane</option>
+                <option value="data">Thunderstorm</option>
+                <option value="construction">Tornado</option>
+              </datalist>
+
+          <div class="severity">
+          <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+            <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <span id="ratingvalue">5</span>
+          </label>
+          </div>
+
+          <label class="top">Storm Region
+            <select name="subject">
+                <option value="">Select Region</option>
+                <option value="preston">Preston</option>
+                <option value="soda">Soda Springs</option>
+                <option value="fish">Fish Haven</option>
+              </select>
+          </label> 
+        </fieldset>
+        
+
+        <fieldset>
+          <legend>Additional Information</legend>
+          Are you in danger?
+          <label class="sbs">
+            <input type="radio" name="danger" value="yes"> Yes
+          </label>
+          <label class="sbs">
+            <input type="radio" name="danger" value="maybe"> Maybe
+          </label>
+          <label class="sbs">
+            <input type="radio" name="danger" value="no"> No
+          </label>
+       
+    
+          Comments:
+          <label class="top">
+            <textarea name="comments" rows="10" cols="45"></textarea>
+          </label>
+        </fieldset>
+        
+        <input type="submit" value="Send Us Your Storm" class="submitBtn">
+          
+      </form>
+
+
+
+
+
+    </main>   
+    <footer>
+        &copy; Weather Or Not 2020 | Heidi Pond | Idaho | BYU-Idaho
+        <br>
+        <span id="newdate"></span>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
