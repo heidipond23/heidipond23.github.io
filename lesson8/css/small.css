@@ -213,7 +213,7 @@ form label.top, form div {
   display: block;
   padding-top: 1rem;
   color: red;
-  font-size: .8rem;
+  font-size: 1rem;
 }
 
 form label.top input, form label.top select {
@@ -233,6 +233,8 @@ form label.sbs {
   padding: .75rem;
   color: #555;
 }
+
+
 
 form input.submitBtn {
   border: none;
