@@ -1,0 +1,63 @@
+h1, h2 {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    color: #45368a;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0;
+}
+
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section {
+    max-width: 400px;
+    background-color: #b4afc9;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #465b7d;
+}
+
+img {
+    max-width: 50%;
+    box-shadow: 0 0 10px 5px #4a3e7a;
+    margin: 20px;
+}
+
+@media only screen and (min-width: 32.5em) {
+    header img {
+      width: 100%;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+ @media only screen and (min-width: 60em) {
+    header img {
+        width: 100%;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+      }
+      
+    img {
+        max-width: 300px;
+    }
