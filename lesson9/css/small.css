@@ -118,6 +118,12 @@ p {
   font-family: domine;
 }
 
+/*Home page*/
+.homeimg {
+  float: left;
+  width: 200px;
+}
+
 
 .pagetitle {
   text-align: center;
