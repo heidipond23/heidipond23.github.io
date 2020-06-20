@@ -11,6 +11,7 @@ fetch(requestURL)
 
         townsArray.forEach (town => {
             let card = document.createElement('section');
+            let infoDiv = document.createElement('div');
             let h2 = document.createElement('h2');
             let motto = document.createElement('h4');
             let yearFounded = document.createElement('p');
@@ -25,13 +26,16 @@ fetch(requestURL)
             rainFall.textContent = 'Annual Rain Fall: ' +  town.averageRainfall;
             image.setAttribute('src', 'images/' + town.photo);
             image.setAttribute('alt', town.name);
+            card.setAttribute('class', 'homeSections');
+            infoDiv.setAttribute('class', 'infoDiv');
+            
 
-
-            card.appendChild(h2);
-            card.appendChild(motto);
-            card.appendChild(yearFounded);
-            card.appendChild(population);
-            card.appendChild(rainFall);
+            card.appendChild(infoDiv);
+            infoDiv.appendChild(h2);
+            infoDiv.appendChild(motto);
+            infoDiv.appendChild(yearFounded);
+            infoDiv.appendChild(population);
+            infoDiv.appendChild(rainFall);
             card.appendChild(image);
 
 
