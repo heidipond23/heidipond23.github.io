@@ -7,6 +7,7 @@
     font-size: 2em;
   }
 
+/*navigation*/
   .navigation {
     display: flex;
   }
@@ -19,6 +20,8 @@
   .navigation li:first-child {
     display: none;
   }
+
+  /*preston page*/
 
   .summary {
     height: 200px;
@@ -44,6 +47,8 @@
     left: 10%;
     border: 1px solid;
   }
+
+
 
   .articlediv {
     position: relative;
@@ -82,6 +87,8 @@
     padding: 20px;
   }
 
+  /*gallery*/
+
   .gallerydiv {
     max-width: 900px;
     display: grid;
@@ -92,6 +99,7 @@
     max-width: 325px;
   }
 
+  
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -140,7 +148,7 @@ h4{
 
 
 
-
+/*Footer */
   footer {
     margin: auto;
     text-align: center;

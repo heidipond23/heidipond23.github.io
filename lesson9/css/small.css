@@ -47,7 +47,7 @@ h3 {
   background-color: #4A6D7C;
 }
 
-
+/*Navigation */
 nav {
   margin: 0 auto;
   background-color: #FF8552;
@@ -127,7 +127,7 @@ p {
   text-align: center;
 }
 .homeimg {
-  width: 200px;
+  width: 300px;
   padding: 10px;
   margin-bottom: none;
 }
@@ -146,6 +146,10 @@ p {
   color: #4A6D7C;
 }
 
+.infoDiv {
+  padding: 10px;
+}
+
 h4{
    font-size: 19px;
  }
@@ -153,7 +157,7 @@ h4{
 
 
 
- 
+ /*Preston Page */
 .pagetitle {
   text-align: center;
 }
@@ -205,6 +209,9 @@ h4{
   margin: 20px;
 }
 
+
+/*Gallery*/
+
 .gallerydiv {
   max-width: 250px;
   display: grid;
@@ -215,7 +222,7 @@ figure img {
   max-width: 250px;
 }
 
-
+/*Footer*/
 
 footer {
   color: white;
