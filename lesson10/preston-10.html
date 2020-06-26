@@ -16,7 +16,7 @@
     <script src="js/windchill.js"></script>
 </head>
 
-<body onload="getWindChill()">
+<body>
     <header>
         <picture>
             <img id="logo" src="images/weatherlogo.png" alt="Weather Or Not Logo">
@@ -44,29 +44,27 @@
         <div class="herodiv">
             <!-- <img id="heroimg" src="images/orangebluesky.jpg" alt="orange and blue sky"> -->
             <picture>
-                <source srcset="images/bluesky710.jpg" media="(min-width:500px) and (max-width: 799px)">
-                    <source srcset="images/bluesky900.jpg" media="(min-width: 800px)">
-                <img src="images/bluesky350.jpg" alt="blue sky">
+                <source srcset="images/orangebluesky710.jpg" media="(min-width:500px) and (max-width: 799px)">
+                    <source srcset="images/orangebluesky900.jpg" media="(min-width: 800px)">
+                <img src="images/orangebluesky.jpg" alt="blue sky">
             </picture>
 
             <section class="summary">
                 <h4>Weather Summary</h4>
-                <p>Currently: <span></span></p>
+                
                 <p>Current: <span id="currentTemp"></span>°F</p>
+                <p>High: <span id="highTemp"></span>°F</p>
                 <p>Windchill: <span id="windChill"></span>°F</p>
-                <p>Humidity: <span></span></p>
+                <p>Humidity: <span id="humidity"></span>%</p>
                 <p>Wind Speed: <span id="windSpeed"></span> mph</p>
                 
             </section>
 
         </div>
+        <h2 id="forecastTitle">Five Day Forecast</h2>
         <div class="forecastdiv">
-            <p><span id="dayofweek1"></span> : <span id="forecast1"></span> &deg; F</p>
-            <p><span id="dayofweek2"></span> : <span id="forecast2"></span> &deg; F</p>
-            <p><span id="dayofweek3"></span> : <span id="forecast3"></span> &deg; F</p>
-            <p><span id="dayofweek4"></span> : <span id="forecast4"></span> &deg; F</p>
-            <p><span id="dayofweek5"></span> : <span id="forecast5"></span> &deg; F</p>
         </div>
+
         <div class="articlediv">
             <h2>Article Name</h2>
             <p class="articlep">Lorem ipsumventore nobis ucimus animi debitis, numquam cum, aliquid fugit expedita
