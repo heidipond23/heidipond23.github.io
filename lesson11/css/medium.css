@@ -1,0 +1,162 @@
+@media only screen and (min-width: 32.5em) {
+  header img {
+    width: 100%;
+  }
+
+  .headings h1 {
+    font-size: 2em;
+  }
+
+/*navigation*/
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  /*preston page*/
+
+  .summary {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #FF8552;
+  }
+
+  .forecastdiv {
+    visibility: visible;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    color: white;
+    background-color: #B4D3D8;
+    position: relative;
+    border: 1px solid #FF8552;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+
+  div.forecastdiv div {
+    background-color: #4A6D7C;
+    padding: 10px;
+    border: 2px solid #FF8552;
+    border-radius: 25px;
+    
+  }
+
+  
+
+  .articlediv {
+    position: relative;
+    height: 350px;
+    text-align: left;
+  }
+
+  .articleimg {
+    position: absolute;
+    padding: 10px;
+    right: 20px;
+    top: 35px;
+    width: 400px;
+  }
+
+  .articlep {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+    left: 20px;
+
+  }
+
+  .contactdiv {
+    position: relative;
+    margin: 10px;
+  }
+
+  #contactinfo {
+    text-align: left;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+
+  .map {
+    width: 40%;
+    padding: 20px;
+  }
+
+  /*gallery*/
+
+  .gallerydiv {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  }
+
+  figure img{
+    max-width: 325px;
+  }
+
+  
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  /*Home page*/
+
+
+.homeimg {
+  float: left;
+  width: 120px;
+  padding: 10px;
+  margin-bottom: none;
+}
+
+.towns {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  justify-content: center;
+}
+
+.homeSections{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  padding: 10px;
+  background-color: #B4D3D8;
+  color: #4A6D7C;
+}
+
+section:nth-child(odd) img {
+  grid-column: 1;
+}
+
+section:nth-child(odd) .infoDiv {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+
+h4{
+   font-size: 19px;
+ }
+
+
+
+/*Footer */
+  footer {
+    margin: auto;
+    text-align: center;
+  }
+}
