@@ -122,15 +122,12 @@ p {
 
 .homeArticle {
   padding: 10px;
-  background-color: #4A6D7C;
-  color: white;
   text-align: center;
 }
 .homeimg {
-  width: 200px;
+  width: 400px;
   float: left;
   padding: 10px;
-  margin-bottom: none;
 }
 
 .towns {
@@ -249,7 +246,7 @@ form fieldset {
 
 form legend {
   color: blue;
-  margin: 1 1rem;
+  margin: 1rem 1rem;
   padding: 0 .5rem;
 }
 
