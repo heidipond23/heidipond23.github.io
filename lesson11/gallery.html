@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Weather Gallery</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="Gallery Of Weather Related Images">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:wght@800&display=swap"
+        rel="stylesheet">
+    <script src="js/windchill.js"></script>
+    <script src="js/lazyload.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img id="logo" src="images/weatherlogo.png" alt="Weather Or Not Logo">
+        </picture>
+        <section class="headings">
+            <h1>Weather Or Not</h1>
+            <div class="m">Accurate Information; Whether it's Good or Not.</div>
+        </section>
+
+    </header>
+    <div id="pancakes">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the City Park Pavilion.</div>
+    <nav>
+        <ul class="navigation">
+          <li><a class="ham" href="#">&#9776; Menu</a></li>
+          <li><a href="/lesson11/index.html">Home</a></li>
+          <li><a href="/lesson11/preston-10.html">Preston</a></li>
+          <li><a href="/lesson11/sodaSprings.html">Soda Springs</a></li>
+          <li><a href="/lesson11/fishHaven.html">Fish Haven</a></li>
+          <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+          <li><a class="active" href="/lesson11/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Image Gallery</h2>
+        <div class="gallerydiv">
+            <figure class="norm">
+                <img src="images/placeholder.jpg" data-src="images/cloudyvalley400.jpg" alt="cloudy valley">
+                <figcaption>"Cloudy Valley" by Michael Scott</figcaption>
+              </figure>
+              <figure class="norm">
+                <img src="images/placeholder.jpg" data-src="images/lightningcity.jpg" alt="lightning above city">
+                <figcaption>"Lightning City" Jim Halpert</figcaption>
+              </figure>
+              <figure class="norm">
+                <img src="images/placeholder.jpg" data-src="images/rainbow400.jpg" alt="rainbow">
+                <figcaption>"Rainbow" by Pam Beasley</figcaption>
+              </figure>
+              <figure class="norm">
+                <img src="images/placeholder.jpg" data-src="images/rainplant.jpg" alt="rain on plant">
+                <figcaption>"Rain Plant" by Dwight Schrute</figcaption>
+              </figure>
+              <figure class="norm">
+                <img src="images/placeholder.jpg" data-src="images/snowyfield400.jpg" alt="snowy field">
+                <figcaption>"Snowy Field" by Kevin Malone</figcaption>
+              </figure>
+              <figure class="norm">
+                <img src="images/placeholder.jpg" data-src="images/tornado400.jpg" alt="tornado">
+                <figcaption>"Tornado" by Angela Martin</figcaption>
+              </figure>
+              <figure class="norm">
+                <img src="images/placeholder.jpg" data-src="images/bluesky400.jpg" alt="blue sky">
+                <figcaption>"Blue Sky" by Creed Bratton</figcaption>
+              </figure>
+              <figure class="norm">
+                <img src="images/placeholder.jpg" data-src="images/clearnightsky400.jpg" alt="clear night sky">
+                <figcaption>"Clear Night Sky" by Jan Leavinson Gould</figcaption>
+              </figure>
+              <figure class="norm">
+                <img src="images/placeholder.jpg" data-src="images/clouds400.jpg" alt="clouds">
+                <figcaption>"Clouds" by Toby Flenderson</figcaption>
+              </figure>
+        </div>
+       
+    <footer>
+        &copy; Weather Or Not 2020 | Heidi Pond | Idaho | BYU-Idaho
+        <br>
+        <span id="newdate"></span>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>

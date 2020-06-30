@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Fish Haven Home Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="Weather or Not Fish Haven Home Page">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:wght@800&display=swap"
+        rel="stylesheet">
+    <script src="js/windchill.js"></script>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img id="logo" src="images/weatherlogo.png" alt="Weather Or Not Logo">
+        </picture>
+        <section class="headings">
+            <h1>Weather Or Not</h1>
+            <div class="m">Accurate Information; Whether it's Good or Not.</div>
+        </section>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="/lesson11/index.html">Home</a></li>
+            <li><a href="/lesson11/preston.html">Preston</a></li>
+            <li><a href="/lesson11/sodaSprings.html">Soda Springs</a></li>
+            <li><a class="active" href="/lesson11/fishHaven.html">Fish Haven</a></li>
+            <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="/lesson11/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="pagetitle">Fish Haven Idaho</h2>
+        <div class="herodiv">
+            <!-- <img id="heroimg" src="images/orangebluesky.jpg" alt="orange and blue sky"> -->
+            <picture>
+                <source srcset="images/orangelake710.jpg" media="(min-width:500px) and (max-width: 799px)">
+                    <source srcset="images/orangelake900.jpg" media="(min-width: 800px)">
+                <img src="images/orangelake300.jpg" alt="blue sky">
+            </picture>
+
+            <section class="summary">
+                <h4>Weather Summary</h4>
+                
+                <p>Current: <span id="currentTemp"></span>°F</p>
+                <p>High: <span id="highTemp"></span>°F</p>
+                <p>Windchill: <span id="windChill"></span>°F</p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Wind Speed: <span id="windSpeed"></span> mph</p>
+                
+            </section>
+
+        </div>
+        <h2 id="forecastTitle">Five Day Forecast</h2>
+        <div class="forecastdiv">
+        </div>
+
+        <div id="events">
+            <h3>Upcoming Events</h3>
+
+        </div>
+
+        <div class="articlediv">
+            <h2>Concerning Shadow People</h2>
+            <p class="articlep">Authorities have been notified of strange happenings in one farmer's field in Fish Haven. The owner of the property, John Johnson, explained the situation: <br> <br> "Four nights ago my children, Johnny and Johanna, ran into the house and told me they had seen extra-terrestrial beings in our potato field. These creatures followed them wherever they went. The strangest part is, as the day wore on, the people stretched taller and taller."</p>
+            <img class="articleimg" src="images/fieldshaddow2.jpg" alt="human shadow on field">
+        </div>
+        <div class="contactdiv">
+            <section id="contactinfo">
+                <h2>Contact Information</h2>
+                <br>
+                <p>Phone: 555-555-5555</p>
+                <p>Address: 555 Fishy Road</p>
+                <p>Email: cityoffishhaven@fishhaven.com</p>
+                
+            </section>
+            <img class="map" src="images/fishhavenmap.jpg" alt="map of fish haven">
+        </div>
+
+        <script src="js/forecast.js"></script>
+      </main>
+    </body>  
+    <footer>
+        &copy; Weather Or Not 2020 | Heidi Pond | Idaho | BYU-Idaho
+        <br>
+        <span id="newdate"></span>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
