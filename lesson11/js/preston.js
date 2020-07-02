@@ -13,16 +13,11 @@
             for (let i = 0; i < townsArray.length; i++) {
                 let card = document.createElement('section');
                 let h2 = document.createElement('h2');
-                let eventList = document.createElement('p');
-
-
-                eventList.textContent = townsArray[i].events;
-
-
-
-               
-                card.appendChild(eventList);
-
+                townsArray[i].events.forEach(event => {
+                    let p = document.createElement('p');
+                    p.textContent = event;
+                    card.appendChild(p);
+                });
 
                 document.querySelector('div.events').appendChild(card);
             }
@@ -35,10 +30,10 @@ fetch(weatherURL)
   .then((jsObject) => {
     console.log(jsObject);
  
-    document.getElementById('currentTemp').textContent = jsObject.main.temp;
-    document.getElementById('highTemp').textContent = jsObject.main.temp_max;
+    document.getElementById('currentTemp').textContent = Math.round(jsObject.main.temp, 0);
+    document.getElementById('highTemp').textContent = Math.round(jsObject.main.temp_max, 0);
     document.getElementById('windChill').textContent = windChill(jsObject.main.temp, jsObject.wind.speed);
-    document.getElementById('humidity').textContent = jsObject.main.humidity;
+    document.getElementById('humidity').textContent = Math.round(jsObject.main.humidity, 0);
     document.getElementById('windSpeed').textContent = jsObject.wind.speed;
 
 
@@ -78,7 +73,7 @@ fetch(forecastURL)
             pForecast.appendChild(spanForecast);
 
             document.querySelector('div.forecastdiv').appendChild(div);
-            document.getElementById(`forecast${day+1}`).textContent = forecast.main.temp;
+            document.getElementById(`forecast${day+1}`).textContent = Math.round(forecast.main.temp, 0);
             document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()];
 
             day++;

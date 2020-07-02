@@ -155,7 +155,7 @@ h4{
 
 
 
- /*Preston Page */
+ /*City Pages */
 .pagetitle {
   text-align: center;
 }
@@ -189,8 +189,16 @@ h4{
 }
 
 .articleimg {
-  width: 90%;
   margin: 10px;
+}
+
+.events {
+  background-color: #4A6D7C;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border: 10px solid #FF8552;
 }
 
 .contactdiv {
@@ -204,7 +212,6 @@ h4{
 }
 
 .map {
-  width: 90%;
   margin: 20px;
 }
 
