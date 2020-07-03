@@ -120,6 +120,8 @@ p {
 
 /*Home page*/
 
+
+
 .homeArticle {
   padding: 10px;
   text-align: center;
@@ -127,16 +129,16 @@ p {
 .homeimg {
   width: 400px;
   float: left;
-  padding: 10px;
   margin: 10px;
 }
 
 .towns {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
   justify-content: center;
-  margin: 20px;
+  margin: 10px;
 }
 
 .homeSections{

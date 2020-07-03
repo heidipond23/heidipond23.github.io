@@ -118,7 +118,6 @@
 .homeimg {
   float: left;
   padding: 10px;
-  margin-bottom: none;
 }
 
 .towns {
@@ -129,10 +128,6 @@
 .homeSections{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 10px;
-  padding: 10px;
-  background-color: #B4D3D8;
-  color: #4A6D7C;
 }
 
 section:nth-child(odd) img {

@@ -76,7 +76,6 @@
 .homeSections {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 10px;
 }
 
 section:nth-child(odd) img {
