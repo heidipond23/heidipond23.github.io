@@ -1,0 +1,127 @@
+/*navigation*/
+nav {
+    background-color: #141414;
+  }
+  
+  .navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    font-size: 1.5em;
+  }
+  
+  .navigation li:first-child {
+    display: block;
+  }
+  
+  .navigation li {
+    display: none;
+  }
+  
+  .navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .navigation a:hover {
+    color: black;
+    background-color: white;
+  }
+  
+  .active {
+    background-color: #A8A8A8;
+    
+  }
+  
+  .responsive li {
+    display: block;
+  }
+
+  /*Apply to entire site */
+
+  main {
+    background-color: #141414;
+    color: white;
+  }
+
+  footer {
+    background-color: #141414;
+    color: white;
+    padding: 30px;
+  }
+
+/*header sizes*/
+
+  h1 {
+    font-size: 4em;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+  
+  h3 {
+    font-size: 1em;
+    margin: 0;
+  }
+
+
+  /*home page*/
+
+  .headerBox {
+      background-image: url("../images/graysand1000.jpg");
+      color: white;
+      text-align: center;
+      padding: 40px;
+  }
+
+  .reserveButton {
+    margin: 20px;
+    padding: 10px;
+    background-color: #444444;
+    color: white;
+  }
+  
+
+  .homeInfoSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 200px;
+  }
+
+  .infoImg {
+    width: 250px;
+  }
+
+  .card {
+    background-color: #444444;
+    width: 250px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .weatherSection {
+    padding: 30px;
+  }
+
+  .weatherSummary{
+    background-color: #444444;
+    padding: 20px;
+    width: 20%;
+    font-size: 1em;
+    text-align: center;
+  }
+
+
+
