@@ -15,13 +15,29 @@ fetch(forecastURL)
     .then((jsObject) => {
         console.log(jsObject);
 
-        const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+
+
+        const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('12:00:00'));
         console.log(fivedayforecast);
 
-        let day = fivedayforecast[4];
-        console.log(day);
+       let fifthDay = fivedayforecast[4];
+        let d = new Date(fifthDay.dt_txt);
+        let div = document.createElement('div');
+        let pDay = document.createElement('p');
+        let pForecast = document.createElement('p');
+        let spanDay = document.createElement('span');
+        spanDay.setAttribute('id', `dayofweek${day+1}`);
 
-        document.getElementById("forecastdiv").textContent= day;
+        div.appendChild(pDay);
+        pDay.appendChild(spanDay);
+        pForecast.appendChild(spanF);
+
+        document.querySelector('div.forecastdiv').appendChild(div);
+        document.getElementById(`forecast${day+1}`).textContent = Math.round(fifthDay.main.temp, 0);
+        document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()];
+
+
+    
 
 
        /* const weekdays = ['Sun',  'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];

@@ -19,4 +19,12 @@
 
       /*home page*/
 
+      .infoImg {
+        width: 500px;
+      }
+
+      .card {
+        width: 500px;
+      }
+
 }
