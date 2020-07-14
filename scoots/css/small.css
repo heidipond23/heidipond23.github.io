@@ -1,3 +1,41 @@
+/*Apply to entire site */
+
+main {
+  background-color: #141414;
+  color: white;
+  width: 100%;
+}
+
+footer {
+  background-color: #141414;
+  color: white;
+  padding: 30px;
+}
+
+
+/*font sizes*/
+
+h1 {
+  font-size: 4em;
+  margin: 0;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+h3 {
+  font-size: 1em;
+  font-family: 'Coda Caption', sans-serif;
+  margin: 0;
+}
+
+p {
+  font-family: 'Titilllium Web', sans-serif;
+}
+
 /*navigation*/
 nav {
   background-color: #141414;
@@ -35,51 +73,13 @@ nav {
 
 .active {
   background-color: #A8A8A8;
-
 }
 
 .responsive li {
   display: block;
 }
 
-/*Apply to entire site */
-
-main {
-  background-color: #141414;
-  color: white;
-}
-
-footer {
-  background-color: #141414;
-  color: white;
-  padding: 30px;
-}
-
-/*header sizes*/
-
-h1 {
-  font-size: 4em;
-  margin: 0;
-  font-family: 'Coda Caption', sans-serif;
-}
-
-h2 {
-  font-size: 2em;
-  font-family: 'Coda Caption', sans-serif;
-}
-
-h3 {
-  font-size: 1em;
-  font-family: 'Coda Caption', sans-serif;
-  margin: 0;
-}
-
-p {
-  font-family: 'Titilllium Web', sans-serif;
-}
-
-
-/*home page*/
+/*home page and tours page*/
 
 .headerBox {
   background-image: url("../images/graysand1000.jpg");
@@ -101,7 +101,7 @@ p {
   grid-template-columns: 1fr;
   justify-content: center;
   justify-items: center;
-  padding-top: 200px;
+  padding: 100px;
 }
 
 .infoImg {
@@ -112,7 +112,7 @@ p {
   background-color: #444444;
   width: 250px;
   text-align: center;
-  margin: 10px 0px 10px 0px;
+  margin: 20px;
 }
 
 .container {
@@ -150,9 +150,9 @@ p {
 
 /*reservations page*/
 
-/*form*/
 form {
   padding: 20px;
+  margin: auto;
 }
 
 form fieldset {

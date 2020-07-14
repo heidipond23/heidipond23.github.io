@@ -1,30 +1,39 @@
 @media only screen and (min-width: 32.5em) {
-   /*navigation*/
-    .navigation {
-        display: flex;
-      }
-    
-      .navigation li {
-        display: block;
-        flex: 1 1 auto;
-      }
-    
-      .navigation li:first-child {
-        display: none;
-      }
 
-      .headerBox {
-          padding: 200px;
-      }
+  /*navigation*/
+  .navigation {
+    display: flex;
+  }
 
-      /*home page*/
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
 
-      .infoImg {
-        width: 500px;
-      }
+  .navigation li:first-child {
+    display: none;
+  }
 
-      .card {
-        width: 500px;
-      }
+  .headerBox {
+    padding: 200px;
+  }
+
+  /*home page*/
+
+  .infoImg {
+    width: 500px;
+  }
+
+  .card {
+    width: 500px;
+  }
+
+  /*reservations page*/
+
+form {
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+}
 
 }

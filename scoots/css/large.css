@@ -9,47 +9,56 @@
   h2 {
     font-size: 2em;
   }
-  
+
   h3 {
     font-size: 2em;
     margin: 0;
   }
-  
-  
+
+
   /*navigation*/
-    .navigation {
-        display: flex;
-      }
-    
-      .navigation li {
-        display: block;
-        flex: 1 1 auto;
-      }
-    
-      .navigation a {
-        text-align: center;
-      }
-    
-      .navigation li:first-child {
-        display: none;
-      }
+  .navigation {
+    display: flex;
+  }
 
-      /*home page */
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
 
-      .reserveButton {
-        font-size: 1.5em;
-      }
-      .homeInfoSection {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: center;
-      }
+  .navigation a {
+    text-align: center;
+  }
 
-      .infoImg {
-        width: 500px;
-      }
+  .navigation li:first-child {
+    display: none;
+  }
 
-      .card {
-        width: 500px;
-      }
+  /*home page */
+
+  .reserveButton {
+    font-size: 1.5em;
+  }
+
+  .homeInfoSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+
+  .infoImg {
+    width: 500px;
+  }
+
+  .card {
+    width: 500px;
+  }
+
+  /*reservations page*/
+
+form {
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+}
 }
