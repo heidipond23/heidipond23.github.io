@@ -1,214 +1,223 @@
 /*navigation*/
 nav {
-    background-color: #141414;
-  }
-  
-  .navigation {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    font-size: 1.5em;
-  }
-  
-  .navigation li:first-child {
-    display: block;
-  }
-  
-  .navigation li {
-    display: none;
-  }
-  
-  .navigation a {
-    font-family: 'Titilllium Web', sans-serif;
-    display: block;
-    padding: 0.75rem;
-    text-align: left;
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-  }
-  
-  .navigation a:hover {
-    color: black;
-    background-color: white;
-  }
-  
-  .active {
-    background-color: #A8A8A8;
-    
-  }
-  
-  .responsive li {
-    display: block;
-  }
+  background-color: #141414;
+}
 
-  /*Apply to entire site */
+.navigation {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  font-size: 1.5em;
+}
 
-  main {
-    background-color: #141414;
-    color: white;
-  }
+.navigation li:first-child {
+  display: block;
+}
 
-  footer {
-    background-color: #141414;
-    color: white;
-    padding: 30px;
-  }
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  font-family: 'Titilllium Web', sans-serif;
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.navigation a:hover {
+  color: black;
+  background-color: white;
+}
+
+.active {
+  background-color: #A8A8A8;
+
+}
+
+.responsive li {
+  display: block;
+}
+
+/*Apply to entire site */
+
+main {
+  background-color: #141414;
+  color: white;
+}
+
+footer {
+  background-color: #141414;
+  color: white;
+  padding: 30px;
+}
 
 /*header sizes*/
 
-  h1 {
-    font-size: 4em;
-    margin: 0;
-    font-family: 'Coda Caption', sans-serif;
-  }
+h1 {
+  font-size: 4em;
+  margin: 0;
+  font-family: 'Coda Caption', sans-serif;
+}
 
-  h2 {
-    font-size: 2em;
-    font-family: 'Coda Caption', sans-serif;
-  }
-  
-  h3 {
-    font-size: 1em;
-    font-family: 'Coda Caption', sans-serif;
-    margin: 0;
-  }
+h2 {
+  font-size: 2em;
+  font-family: 'Coda Caption', sans-serif;
+}
 
-  p {
-    font-family: 'Titilllium Web', sans-serif;
-  }
+h3 {
+  font-size: 1em;
+  font-family: 'Coda Caption', sans-serif;
+  margin: 0;
+}
 
-
-  /*home page*/
-
-  .headerBox {
-      background-image: url("../images/graysand1000.jpg");
-      color: white;
-      text-align: center;
-      padding: 40px;
-  }
-
-  .reserveButton {
-    margin: 20px;
-    padding: 10px;
-    background-color: #444444;
-    color: white;
-  }
-  
-
-  .homeInfoSection {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    justify-items: center;
-    padding-top: 200px;
-  }
-
-  .infoImg {
-    width: 250px;
-  }
-
-  .card {
-    background-color: #444444;
-    width: 250px;
-    text-align: center;
-    margin: 10px 0px 10px 0px;
-  }
-  
-  .container {
-    padding: 2px 16px;
-  }
-
-  .button {
-    background-color: #7b7b7b7b;
-    box-shadow: -2px -2px 2px 0px rgba(122,122,122,1);
-    border: none;
-    color: white;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px 10px;
-    cursor: pointer;
-  }
-
-  .weatherSection {
-    padding: 30px;
-  }
-
-  .weatherSummary{
-    background-color: #444444;
-    padding: 20px;
-    width: 20%;
-    font-size: 1em;
-    text-align: center;
-  }
+p {
+  font-family: 'Titilllium Web', sans-serif;
+}
 
 
-  /*reservations page*/
+/*home page*/
 
-  /*form*/
-  form {
-    padding: 20px;
-  }
-  form fieldset {
-    margin: 2rem 0;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: .5rem 2%;
-  }
-  
-  form legend {
-    color: white;
-    margin: 1rem 1rem;
-    padding: 0 .5rem;
-  }
-  
-  form label.top, form div {
-    display: block;
-    padding-top: 1rem;
-    color: white;
-    font-size: 1rem;
-  }
-  
-  form label.top input, form label.top select {
-    display: block;
-    font-size: 1rem;
-    border: solid 1px white;
-    border-radius: 4px;
-    padding: .75rem;
-    color: white;
-    width: 100%;
-    max-width: 20rem;
-    background-color: rgb(0,0,0,0.1);
-  }
-  
-  form label.sbs {
-    display: block;
-    padding: .75rem;
-    color: white;
-  }
-  
-  
-  
-  form input.submitBtn {
-    border: none;
-    background-color: white;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
-  }
-  
-  form label.top input:required {
-    border-left: red solid 6px;
-  }
-  
-  form label.top input:required:valid {
-    border-left: green solid 6px;
-  }
+.headerBox {
+  background-image: url("../images/graysand1000.jpg");
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.reserveButton {
+  margin: 20px;
+  padding: 10px;
+  background-color: #444444;
+  color: white;
+}
+
+
+.homeInfoSection {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 200px;
+}
+
+.infoImg {
+  width: 250px;
+}
+
+.card {
+  background-color: #444444;
+  width: 250px;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.button {
+  background-color: #7b7b7b7b;
+  box-shadow: -2px -2px 2px 0px rgba(122, 122, 122, 1);
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+.weatherSection {
+  padding: 30px;
+}
+
+.weatherSummary {
+  background-color: #444444;
+  padding: 20px;
+  width: 20%;
+  font-size: 1em;
+  text-align: center;
+}
+
+/*rentals page*/
+
+
+/*reservations page*/
+
+/*form*/
+form {
+  padding: 20px;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend {
+  color: white;
+  margin: 1rem 1rem;
+  padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: white;
+  font-size: 1rem;
+}
+
+form label.top input,
+form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px white;
+  border-radius: 4px;
+  padding: .75rem;
+  color: white;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgb(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem;
+  color: white;
+}
 
 
 
+form input.submitBtn {
+  border: none;
+  background-color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+/*desposit page*/
+
+
+/*tours page*/
+
+/*contact page*/
