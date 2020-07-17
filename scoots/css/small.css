@@ -10,13 +10,20 @@ main {
 footer {
   background-color: #141414;
   color: white;
-  padding: 30px;
+  padding: 100px;
+  text-align: center;
 }
 
 .pageHeads {
   text-align: center;
   margin: 0px;
   padding: 20px;
+}
+
+.socialImg {
+  height: 70px;
+  padding: 10px;
+  margin: 20px;
 }
 
 
@@ -153,6 +160,9 @@ nav {
 }
 
 /*rentals page*/
+
+  /*table*/
+  
 
 
 /*reservations page*/
