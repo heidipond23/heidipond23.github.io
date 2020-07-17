@@ -6,15 +6,21 @@ main {
   width: 100%;
 }
 
+
 footer {
   background-color: #141414;
   color: white;
   padding: 30px;
 }
 
+.pageHeads {
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+}
+
 
 /*font sizes*/
-
 h1 {
   font-size: 4em;
   margin: 0;
@@ -29,7 +35,7 @@ h2 {
 h3 {
   font-size: 1em;
   font-family: 'Coda Caption', sans-serif;
-  margin: 0;
+  margin: 0; 
 }
 
 p {
@@ -55,6 +61,7 @@ nav {
 .navigation li {
   display: none;
 }
+
 
 .navigation a {
   font-family: 'Titilllium Web', sans-serif;
@@ -196,7 +203,6 @@ form label.sbs {
 }
 
 
-
 form input.submitBtn {
   border: none;
   background-color: white;
@@ -221,3 +227,12 @@ form label.top input:required:valid {
 /*tours page*/
 
 /*contact page*/
+
+.locationDiv {
+  text-align: center;
+  padding: 40px;
+}
+
+iframe {
+  margin: 10px;
+}
