@@ -14,6 +14,7 @@
   /*navigation*/
   .navigation {
     display: flex;
+    font-size: 1.3rem;
   }
 
   .navigation li {

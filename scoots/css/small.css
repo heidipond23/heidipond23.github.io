@@ -62,7 +62,7 @@ nav {
   list-style: none;
   text-align: center;
   padding: 0;
-  font-size: 1.5em;
+  font-size: 1.rem;
 }
 
 .navigation li:first-child {
