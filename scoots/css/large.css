@@ -57,8 +57,12 @@
   /*rentals page*/
 
   .servicesDiv {
-    width: 60%;
+    width: 40%;
     font-size: 1.5rem;
+  }
+
+  .servicesDiv p {
+   padding-left: 30px;
   }
 
   th, td {
