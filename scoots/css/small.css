@@ -25,6 +25,11 @@ footer {
   margin: 0px;
 }
 
+.link {
+  color: white;
+  text-decoration: none;
+}
+
 
 /*font sizes*/
 h1 {
