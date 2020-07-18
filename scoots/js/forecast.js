@@ -17,10 +17,10 @@ fetch(forecastURL)
     .then((jsObject) => {
         console.log(jsObject);
 
-        const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+        const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('12:00:00'));
         console.log(fivedayforecast);
 
-
-    
-
+        document.getElementById('forecastTemp').textContent = Math.round(fivedayforecast[4].main.temp, 0);
+        document.getElementById('forecastCondition').textContent = fivedayforecast[4].weather[0].description;
+        document.getElementById('forecastHumidity').textContent = fivedayforecast[4].main.humidity;
     });

@@ -13,7 +13,6 @@ fetch(requestURL)
         const rentals = jsonObject['rentals'];
         let table = document.createElement('table');
         let thead = document.createElement('thead');
-        let caption = document.createElement('caption');
         let th = document.createElement('th');
         let tr = document.createElement('tr');
         let tr2 = document.createElement('tr');
@@ -26,7 +25,7 @@ fetch(requestURL)
         let halfday2 = document.createElement('th');
         let fullday2 = document.createElement('th');
 
-        caption.textContent = "Max Persons and Price Chart (Includes Tax)";
+        
         reservation.textContent = "Reservation";
         walkin.textContent = "Walk-In";
         rentaltype.textContent = "Rental Type";
@@ -36,9 +35,13 @@ fetch(requestURL)
         halfday2.textContent = "Half Day (3hrs)";
         fullday2.textContent = "Full Day";
 
+       
+        th.setAttribute("colspan", "2");
+        reservation.setAttribute("colspan", "2");
+        walkin.setAttribute("colspan", "2");
+
 
         table.appendChild(thead);
-        thead.appendChild(caption);
         thead.appendChild(tr);
         tr.appendChild(th);
         tr.appendChild(reservation);
@@ -50,6 +53,8 @@ fetch(requestURL)
         tr2.appendChild(fullday);
         tr2.appendChild(halfday2);
         tr2.appendChild(fullday2);
+
+        
 
 
         for (let i = 0; i < rentals.length; i++) {

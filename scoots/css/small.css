@@ -6,11 +6,10 @@ main {
   width: 100%;
 }
 
-
 footer {
   background-color: #141414;
   color: white;
-  padding: 100px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -21,9 +20,9 @@ footer {
 }
 
 .socialImg {
-  height: 70px;
-  padding: 10px;
-  margin: 20px;
+  height: 40px;
+  padding: 5px;
+  margin: 0px;
 }
 
 
@@ -115,7 +114,7 @@ nav {
   grid-template-columns: 1fr;
   justify-content: center;
   justify-items: center;
-  padding: 100px;
+  padding: 10px;
 }
 
 .infoImg {
@@ -127,6 +126,7 @@ nav {
   width: 250px;
   text-align: center;
   margin: 20px;
+  border-bottom: 9px solid #C94A18;
 }
 
 .container {
@@ -148,20 +148,61 @@ nav {
 }
 
 .weatherSection {
-  padding: 30px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+ 
 }
 
 .weatherSummary {
   background-color: #444444;
   padding: 20px;
-  width: 20%;
+  margin: 30px;
+  width: 50%;
   font-size: 1em;
   text-align: center;
+  border-bottom: 9px solid #C94A18;
 }
 
 /*rentals page*/
 
-  /*table*/
+.rentalSection {
+  text-align: center;
+}
+
+.rentalSection h3 {
+  padding-top: 50px;
+}
+
+.servicesDiv {
+  border: 1px solid #C94A18;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  margin: 5px;
+}
+.servicesDiv p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+table {
+  display: inline-block;
+  text-align: left;
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+table, th, td {
+  border: 1px solid #C94A18;
+}
+
+th, td {
+  padding: 5px;
+}
+
   
 
 
@@ -174,7 +215,7 @@ form {
 
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid white;
+  border: 1px solid #C94A18;
   border-radius: 10px;
   padding: .5rem 2%;
 }
@@ -224,25 +265,39 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-  border-left: red solid 6px;
+  border-left: #C94A18 solid 6px;
 }
 
 form label.top input:required:valid {
   border-left: green solid 6px;
 }
 
+.agreement {
+  font-size: .6rem;
+  width: 60%;
+}
+
+
 /*desposit page*/
 
 
-/*tours page*/
 
 /*contact page*/
 
 .locationDiv {
   text-align: center;
-  padding: 40px;
+  padding: 10px;
 }
 
 iframe {
-  margin: 10px;
+  margin: 0px;
+}
+
+
+/*thanks page*/
+
+.thanks {
+  text-align: center;
+  height: 900px;
+  padding-top: 50px;
 }
