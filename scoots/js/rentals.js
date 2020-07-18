@@ -1,5 +1,5 @@
 const requestURL = 'https://heidipond23.github.io/scoots/data/rent.json';
-console.log(requestURL);
+
 
 
 
@@ -9,7 +9,7 @@ fetch(requestURL)
 
     })
     .then(function (jsonObject) {
-        //console.table(jsonObject); // temporary checking for valid response and data parsing
+      
         const rentals = jsonObject['rentals'];
         let table = document.createElement('table');
         let thead = document.createElement('thead');
